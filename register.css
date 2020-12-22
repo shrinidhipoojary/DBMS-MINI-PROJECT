@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Sofia';
+  padding: 0;
+  background: url(register.jpg);
+  background-repeat: no-repeat;
+      background-attachment: fixed; 
+           background-size: cover;
+           background-size: 100% 100%;
+}
+
+h3{
+  margin-top: -20px;
+}
+
+.login-form {
+  width: 280px;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  border: solid;
+  font-size: 2rem;
+  margin-right: 300px;
+  box-shadow: 3px 3px 8px green;
+}
+
+.header h3 hr {
+  border: 0;
+  border-bottom: 5px solid green;
+  width: 140px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form input[type="phno"],
+.login-form input[type="email"]{
+  border: none;
+  background: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white;
+  padding: 5px;
+  margin: 30px auto;
+  display: block;
+  text-align: center;
+  width: 170px;
+  font-size: 18px;
+}
+
+p{
+  font-size: 20px;
+  color: green;
+}
+
+.login-form input[type="text",]:focus,
+.login-form input[type="email"]:focus,
+.login-form input[type="password"]:focus,
+ {
+  border-bottom: 2px solid blue;
+}
+
+.login-form input[type="submit"],
+{
+  padding: 7px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 150px;
+  font-family: 'Kaushan Script';
+  letter-spacing: 0.0625em;
+}
+
+.login-form input[type="submit"]:hover {
+  border: 0px;
+  color: green;
+  box-shadow: 3px 3px 8px blue;
+}

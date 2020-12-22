@@ -1,0 +1,58 @@
+h1{
+		color: white;
+    text-align: center;
+    padding-left: 45px;
+    padding-top: 150px;
+            
+    font-family: 'Kaushan Script';
+    font-size: 65px;
+    letter-spacing: 0.0625em;
+	}
+
+	p{
+      color: white;
+      text-align: center;
+      font-family: 'Sofia';
+      font-size: 22px;
+      margin-left:50px;
+		}
+
+	.topright {
+              position: absolute;
+              top:  8px;
+              right:  20px;
+              font-size: 18px;
+              margin : 40px;
+            }
+
+  .topright1 {
+                position:  absolute;
+                top:  8px;
+                right:  165px;
+                font-size: 18px;
+                margin : 40px;
+              }
+
+  .button1,.button2 {
+        	             background-color: #203354;
+        	             font-size: 20px;
+        	             padding: 10px 20px;
+        	             border-radius: 8px;
+        	             border: 2px solid #203354;
+        	             color: white;
+                       font-family: 'Sofia';
+                    }
+
+  .button1:hover,.button2:hover {
+                                  background-color: white; 
+                                  color: #203354;
+                                }
+
+	body{
+
+			   background-image: url("main.jpg");
+			   background-repeat: no-repeat;
+			   background-attachment: fixed; 
+         background-size: cover;
+         background-size: 100% 100%;
+		  }
